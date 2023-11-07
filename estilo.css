@@ -29,7 +29,7 @@ html{
 .contenedor-header header .logo a{
     font-family: 'Righteous';
     font-size: 36px;
-    color: #1CB698;
+    color: #b61c8d;
     text-decoration: none;
 }
 .contenedor-header header ul{
@@ -38,18 +38,18 @@ html{
 }
 .contenedor-header header nav ul li a{
     text-align: none;
-    color: #fff;
+    color: #a4a4a4;
     margin: 0 15px;
     padding: 3px;
     transition: .5s;
     text-decoration: none;
 }
 .contenedor-header header nav ul li a:hover{
-    color: #1CB698;
+    color: #dedede;
 }
 .nav-responsive{
-    background-color: #1CB698;
-    color:#fff;
+    background-color: #ffffff;
+    color:#b6b6b6;
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
@@ -58,10 +58,10 @@ html{
 /* SECCION I N I C I O */
 .inicio{
     background: linear-gradient(to top, rgba(30,35,38,.8), rgba(30,35,38,1)),
-    url(img/fondo.jpg);
+    url(https://media.licdn.com/dms/image/D4E12AQGzPyYiQgFOmw/article-cover_image-shrink_600_2000/0/1688735723670?e=1704931200&v=beta&t=hTUUmCc5fOLXWtKqvXo_59OJKcWcSQOBQoPSpK4z-pc);
     background-size: cover;
     height: 100vh;
-    color: #fff;
+    color: #ffffff;
     display: flex;
     align-items: center;
 }
@@ -71,18 +71,18 @@ html{
     max-width: 350px;
     margin: auto;
     text-align: center;
-    border-radius: 40px;
+    border-radius: 20px;
 }
 .inicio .contenido-banner img{
-    margin-top: 40px;
-    border: 10px solid #1CB698;
+    margin-top: 20px;
+    border: 10px solid #919191;
     display: block;
-    width: 80%;
+    width: 100%;
     margin: auto;
     border-radius: 100%;
 }
 .inicio .contenido-banner h1{
-    margin-top: 40px;
+    margin-top: 20px;
     font-size: 42px;
     font-family: 'Righteous';
 }
@@ -104,7 +104,7 @@ html{
     transition: .3s;
 }
 .inicio .contenido-banner .redes a:hover{
-    background-color: #1CB698;
+    background-color: #757575;
 }
 .sobremi{
     background-color: #1e2326;
@@ -128,7 +128,7 @@ html{
     margin-bottom: 20px;
 }
 .sobremi .contenido-seccion p span{
-    color: #1CB698;
+    color: #ffffff;
     font-weight: bold;
 }
 .sobremi .fila{
@@ -151,11 +151,11 @@ html{
 }
 .sobremi .fila .col ul li strong{
     display: inline-block;
-    color: #1CB698;
+    color: #999999;
     width: 130px;
 }
 .sobremi .fila .col ul li span{
-    background-color: #1CB698;
+    background-color: #b61c8d;
     padding: 3px;
     font-weight: bold;
     border-radius: 5px;
@@ -176,7 +176,7 @@ html{
     justify-content: center;
     transition: .3s;
 }.sobremi .fila .col .contenedor-intereses .interes:hover{
-    background-color: #1CB698;
+    background-color: #9f9f9f;
 }
 .sobremi .fila .col .contenedor-intereses .interes i{
     font-size: 30px;
@@ -194,6 +194,7 @@ html{
     color: #fff;
     position: relative;
     z-index: 10;
+
 }
 .sobremi button .overlay{
     position: absolute;
@@ -201,7 +202,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #b61c8d;
     z-index: -1;
     transition: 1s;
 }
@@ -250,7 +251,7 @@ html{
     margin-bottom: 30px;
 }
 .skills .skill .progreso{
-    background-color: #1CB698;
+    background-color: #ffffff;
     position: absolute;
     top: 0;
     left: 0;
@@ -260,7 +261,7 @@ html{
     position: absolute;
     height: 40px;
     width: 40px;
-    background-color: #1CB698;
+    background-color: #b61c8d;
     border-radius: 50px;
     line-height: 40px;
     text-align: center;
@@ -405,30 +406,30 @@ html{
     margin-bottom: 10px;
 }
 .curriculum .fila .item .casa{
-    color: #1CB698;
+    color: #b61c8d ;
     font-size: 22px;
     font-weight: bold;
     display: block;
 }
 .curriculum .fila .item .fecha{
     display: block;
-    color: #1CB698;
+    color: #b61c8d;
     margin-bottom: 10px;
 }
 .curriculum .fila .item p{
     line-height: 24px;
 }
 .curriculum .fila .izq{
-    border-right: 2px solid #1CB698;
+    border-right: 2px solid #b61c8d;
     margin-right: 20px;
 }
 .curriculum .fila .der{
-    border-left: 2px solid #1CB698;
+    border-left: 2px solid #b61c8d;
     margin-left: 20px;
 }
 .curriculum .fila .item .conectori{
     height: 2px;
-    background-color: #1CB698;
+    background-color: #b61c8d;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -440,14 +441,14 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #1CB698;
+    background-color: #b61c8d;
     float: right;
     position: relative;
     bottom: 4px;
 }
 .curriculum .fila .item .conectord{
     height: 2px;
-    background-color: #1CB698;
+    background-color: #b61c8d;
     width: 47px;
     position: absolute;
     top: 50%;
@@ -459,7 +460,7 @@ html{
     height: 10px;
     width: 10px;
     border-radius: 50%;
-    background-color: #1CB698;
+    background-color: #b61c8d;
     float: left;
     position: relative;
     bottom: 4px;
@@ -502,7 +503,7 @@ html{
     width: 100%;
     height: 100%;
     text-align: center;
-    background: linear-gradient(rgba(28,182,152,.8), rgba(28,182,152,.8));
+    background: linear-gradient(rgba(215, 215, 215, 0.8), rgba(107, 117, 255, 0.8));
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -575,7 +576,7 @@ html{
     left: 0;
     width: 0;
     height: 100%;
-    background-color: #1CB698;
+    background-color: #b61c8d;
     z-index: -1;
     transition: 1s;
 }
@@ -601,7 +602,7 @@ html{
     margin-bottom: 20px;
 }
 .contacto .col .info ul li i{
-    color: #1CB698;
+    color: #b0b0b0;
     display: inline-block;
     margin-right: 20px;
 }
@@ -633,7 +634,7 @@ footer .arriba{
     display: block;
     width: 50px;
     height: 50px;
-    background-color: #1CB698;
+    background-color: #b0b0b0;
     color: #fff;
     position: absolute;
     left: 50%;
